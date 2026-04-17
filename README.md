@@ -8,16 +8,21 @@ Literature curated by **Prof. Vukosi Marivate** — [DSFSI](https://www.dsfsi.co
 
 ```
 episodes/
-  season-01/
+  season-01/           ← Current season (2026–)
     ep001-south-africa-ai-sovereignty.mp3
+  season-00/           ← Prior podcasts (2024, migrated from SoundCloud)
+    2024-10-01-izindaba-tindzaba.mp3
+    2024-10-03-public-transport-sentiment.mp3
+    2024-10-09-low-resource-languages-llms-panel.mp3
+    2024-10-15-ai-industry-rd-workshop-panel.mp3
 ```
 
 ## Adding a new episode
 
 1. Convert audio to MP3 (128–192 kbps recommended for speech)
-2. Name it `epNNN-episode-slug.mp3` and place it in the correct season folder
+2. Name it `YYYY-MM-DD-episode-slug.mp3` and place it in the correct season folder
 3. Commit and push — the raw URL is then:
-   `https://raw.githubusercontent.com/dsfsi/dsfsi-podcast/main/episodes/season-XX/epNNN-slug.mp3`
+   `https://raw.githubusercontent.com/dsfsi/dsfsi-podcast/main/episodes/season-XX/YYYY-MM-DD-slug.mp3`
 4. Add an episode file in `_podcasts/` on [dsfsi.github.io](https://github.com/dsfsi/dsfsi.github.io) with that URL as `audio_url`
 
 ## RSS Feed
