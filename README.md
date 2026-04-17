@@ -1,1 +1,25 @@
-# dsfsi-podcast
+# DSFSI Podcast — Audio Assets
+
+This public repository hosts audio files for the [DSFSI Podcast](https://www.dsfsi.co.za/podcasts/).
+
+Hosted by **Prof. Vukosi Marivate** — [DSFSI](https://www.dsfsi.co.za) & [AfriDSAI](https://afridsa.ai)
+
+## Structure
+
+```
+episodes/
+  season-01/
+    ep001-south-africa-ai-sovereignty.mp3
+```
+
+## Adding a new episode
+
+1. Convert audio to MP3 (128–192 kbps recommended for speech)
+2. Name it `epNNN-episode-slug.mp3` and place it in the correct season folder
+3. Commit and push — the raw URL is then:
+   `https://raw.githubusercontent.com/dsfsi/dsfsi-podcast/main/episodes/season-XX/epNNN-slug.mp3`
+4. Add an episode file in `_podcasts/` on [dsfsi.github.io](https://github.com/dsfsi/dsfsi.github.io) with that URL as `audio_url`
+
+## RSS Feed
+
+`https://www.dsfsi.co.za/podcasts/feed.xml`
